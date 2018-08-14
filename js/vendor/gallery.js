@@ -1,15 +1,8 @@
-$(document).ready(function(){
-  $(".fancybox").fancybox({
-        openEffect: "none",
-        closeEffect: "none"
-    });
-    
-    $(".zoom").hover(function(){
-		
-		$(this).addClass('transition');
-	}, function(){
-        
-		$(this).removeClass('transition');
-	});
-});
-    
+//fancybox begin
+	$().fancybox({
+		selector : '[data-fancybox="gallery1"],[data-fancybox="gallery2"]',
+		thumbs: false,
+		hash: true,
+		loop: true
+	 });
+
