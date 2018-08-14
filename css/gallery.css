@@ -84,7 +84,7 @@ nav a {
   margin: 0 auto;
 }
 .alboms__item {
-  border: 1px solid red;
+  border: 1px solid #b66872;
   position: relative;
   overflow: hidden;
   transition: 0.5s Ease;
@@ -122,10 +122,3 @@ nav a {
 
 
 
-
-.header-top {
-  position: relative 
-  left: 50%;  
-  transform: translateY(-50%); 
-    text-align: center
-  }
