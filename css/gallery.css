@@ -52,3 +52,21 @@ img.zoom {
     .modal-footer{
       display:none;  
     }
+
+.col-md-12{
+color: white;
+}
+
+.menu-bar span {
+    color: white;
+    font-size: 24px;
+}
+
+nav a {
+    color: white;
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin: 0 25px;
+    display: inline-block;
+}

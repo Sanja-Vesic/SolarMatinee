@@ -1,0 +1,16 @@
+.single-footer-widget{
+	position: relative;
+   top: 50%;
+   transform: translateY(-50%); 
+    text-align: center;
+
+}
+
+
+.footer-social{
+
+	position: absolute;
+   top: 50%;
+   transform: translateY(-50%); 
+      text-align: center;
+}
