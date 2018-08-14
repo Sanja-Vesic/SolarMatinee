@@ -119,3 +119,13 @@ nav a {
 }
 
 /*FOTOGALLERY FANCYBOX END */
+
+
+
+
+.header-top {
+  position: relative 
+  left: 50%;  
+  transform: translateY(-50%); 
+    text-align: center
+  }
