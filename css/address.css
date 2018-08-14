@@ -14,3 +14,8 @@
    transform: translateY(-50%); 
       text-align: center;
 }
+
+
+#footer{
+	background-color: black;
+}
