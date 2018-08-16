@@ -76,10 +76,9 @@ nav a {
 
 
 .container-gallery{     
-position: relative;
+   position: relative;
     top: -105px;
-        display: flex;
-    flex-direction: row;
+    display: flex;
     justify-content: left;
     margin: 150px;
     flex-direction: column-reverse;
