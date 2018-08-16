@@ -80,7 +80,7 @@ var unavailableDates = [
     {start: '2015-10-01', end: '2015-10-07'}
 ];
 
-$('#calendar').availabilityCalendar(unavailableDates);
+
 
 
 
