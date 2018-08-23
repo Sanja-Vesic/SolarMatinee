@@ -1,62 +1,313 @@
-
 <!DOCTYPE html>
-<html>
-<style>
-body, html {
-    height: 100%;
-    margin: 0;
-}
+<html lang="zxx" class="no-js">
 
-.bgimg {
-    background-image: url('img/zalazak.jpg');
-    height: 100%;
-    background-position: center;
-    background-size: cover;
-    position: relative;
-    color: white;
-    font-family: "Courier New", Courier, monospace;
-    font-size: 25px;
-}
+<head>
+    <!-- Mobile Specific Meta -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Favicon-->
+    <link rel="shortcut icon" href="img/fav.png">
+    <!-- Author Meta -->
+    <meta name="author" content="Colorlib">
+    <!-- Meta Description -->
+    <meta name="description" content="">
+    <!-- Meta Keyword -->
+    <meta name="keywords" content="">
+    <!-- meta character set -->
+    <meta charset="UTF-8">
+    <!-- Site Title -->
+    <title>Solar Matinee</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,400,300,500,600,700" rel="stylesheet">
+    <
+    <!--
+			CSS
+			============================================= -->
+    <link rel="stylesheet" href="css/linearicons.css">=
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link href="css/availability-calendar.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/gallery.css">
+    <link rel="stylesheet" href="css/address.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/about.css">
+    <link rel="stylesheet" href="css/map.css">
+    <link rel="stylesheet" href="css/menu.css">
 
-.topleft {
-    position: absolute;
-    top: 0;
-    left: 16px;
-}
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Droid+Sans:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://rawgit.com/LeshikJanz/libraries/master/Bootstrap/baguetteBox.min.css">
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
-.bottomleft {
-    position: absolute;
-    bottom: 0;
-    left: 16px;
-}
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>
 
-.middle {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-}
+<script type="text/javascript" src="/fancybox/jquery.fancybox-1.3.4.pack.js"></script>
+<script type="text/javascript" src="/fancybox/jquery.easing-1.4.pack.js"></script>
+<script type="text/javascript" src="/fancybox/jquery.mousewheel-3.0.4.pack.js"></script>
+<link rel="stylesheet" href="css/gallery.css" type="text/css" media="screen" />
 
-hr {
-    margin: auto;
-    width: 40%;
-}
-</style>
+    <!------ Include the above in your HEAD tag ---------->
+
+</head>
+
 <body>
+    <!-- Start Header Area -->
+    <header class="default-header" style="background-color: black ">
+        <div class="container">
+            <div class="header-wrap">
+                <div class="header-top d-flex justify-content-between align-items-center">
+                    <div class='interview'>
+                        <li class="nav-item px-lg-4">
+              <a class="nav-link text-uppercase text-expanded" href="interview.html">Interview</a>
+            </li>
+        </div>
+                    <div class="logo">
+                        <a href="#home"><img src="img/rsz1_solar.jpg" alt="Solar Matinee"></a>
+                    </div>
 
-<div class="bgimg">
-  <div class="topleft">
-    <p></p>
-  </div>
-  <div class="middle">
-    <h1>COMING SOON</h1>
-  
-  </div>
-  <div class="bottomleft">
-    <p></p>
-  </div>
+                    <div class="burger">
+            <label for="menu-toggle"> ☰ </label><input type="checkbox" id="menu-toggle">
+            <ul class="nav">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#galler">Gallery</a></li>
+            <li><a href="#footer">Contact</a></li>
+            </ul>
+            </div>
+            </div>
+        </div>
+    </header>
+    <!-- End Header Area -->
+    <!-- start banner Area -->
+    <section class="banner-area relative" id="home">
+        <div class="overlay overlay-bg"></div>
+        <div class="container">
+            <div class="row fullscreen  justify-content-center" style="height: 720px">
+                <div class="banner-content col-lg-6 col-md-12">
+                    <h1>
+									Solar matinee - Third time’s a charm
+								</h1>
+                    <div class="row clock_sec d-flex flex-row justify-content-between" id="clockdiv">
+                        <div class="clockinner">
+                            <span class="days"></span>
+                            <div class="smalltext">Days</div>
+                        </div>
+                        <div class="clockinner">
+                            <span class="hours"></span>
+                            <div class="smalltext">Hours</div>
+                        </div>
+                        <div class="clockinner">
+                            <span class="minutes"></span>
+                            <div class="smalltext">Minutes</div>
+                        </div>
+                        <div class="clockinner">
+                            <span class="seconds"></span>
+                            <div class="smalltext">Seconds</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End banner Area -->
+    <!-- About -->
+    <section id="about">
+       <!--  <div class="container"> -->
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                
+                    <h3 class="section-subheading text-muted">Zasto Solar matinée?</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <ul class="timeline">
+                        <li>
+                            <div class="timeline-image">
+                                <img class="rounded-circle img-fluid" src="img/solar.jpg" alt="">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                        
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted" style="font-size: 18px">Solar matinée je grupa ljudi u potrazi za fenomenalnim lokacijama u Beogradu, i Srbiji, na kojima uz zvuke lagane tech-house/deep house/house muzike i opustenu atmosferu, mozete uzivati u nezaboravnom zalasku sunca. Solar matinée ce se truditi da Vam uvek pruzi priliku da uzitkom zavrsite nedelju, za pocetak, lokacija je Rooftop gastro bar, koji se nalazi na 9. spratu hotela Heritage. Zauzmite najbolju poziciju na nasem krovu, a mi cemo se pobrinuti za ostalo. Nasi rezidenti Bazalac&Racic ce svake nedelje biti sa nama, a iz nedelje u nedelju cemo se truditi da pored njih bude i neko poznato lice domace scene....a i poneko iznenadjenje...budite sa nama, vidimo se na krovu.</p>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+      <!--   </div> -->
+    </section>
+    <!-- End about section -->
+    <!-- Start speaker Area -->
+   
+          <!--       <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="container">
+                <div class="col-md-12 text-center">
+                    <h1>Gallery</h1>
+                </div>
+            </div>
+        </nav>
+ -->
+
+
+    <div class='container-gallery'>
+    <section class="section-galerry" id="galler">
+
+        
+  <ul class="gallery">
+    <li draggable="true"><img src="img/29.07.2018/1.jpg"/>Solar matinee  29.07.2018</li>
+    <li draggable="true"><img src="img/29.07.2018/2.jpg"/>Solar matinee  29.07.2018</li>
+    <li draggable="true"><img src="img/29.07.2018/3.jpg"/>Solar matinee  29.07.2018</li>
+    <li draggable="true"><img src="img/29.07.2018/4.jpg"/>Solar matinee  29.07.2018</li>
+    <li draggable="true"><img src="img29.07.2018/5.jpg"/>Solar matinee  29.07.2018</li>
+     <li draggable="true"><img src="img/29.07.2018/6.jpg"/>Solar matinee  29.07.2018</li>
+    <li draggable="true"><img src="img/29.07.2018/7.jpg"/>Solar matinee  29.07.2018</li>
+    <li draggable="true"><img src="img/29.07.2018/8.jpg"/>Solar matinee  29.07.2018</li>
+    <li draggable="true"><img src="img/29.07.2018/9.jpg"/>Solar matinee  29.07.2018</li>
+     <li draggable="true"><img src="img/29.07.2018/10.jpg"/>Solar matinee  29.07.2018</li>
+    <li draggable="true"><img src="img/29.07.2018/11.jpg"/>Solar matinee  29.07.2018</li>
+    <li draggable="true"><img src="img/29.07.2018/12.jpg"/>Solar matinee  29.07.2018</li>
+    <li draggable="true"><img src="img/29.07.2018/13.jpg"/>Solar matinee  29.07.2018</li>
+     <li draggable="true"><img src="img/29.07.2018/14.jpg"/>Solar matinee  29.07.2018</li>
+    <li draggable="true"><img src="img/29.07.2018/15.jpg"/>Solar matinee  29.07.2018</li>
+    <li draggable="true"><img src="img/29.07.2018/16.jpg"/>Solar matinee  29.07.2018</li>
+    <li draggable="true"><img src="img/29.07.2018/17.jpg"/>Solar matinee  29.07.2018</li>
+     <li draggable="true"><img src="img/29.07.2018/18.jpg"/>Solar matinee  29.07.2018</li>
+    <li draggable="true"><img src="img/29.07.2018/19.jpg"/>Solar matinee  29.07.2018</li>
+    <li draggable="true"><img src="img/29.07.2018/20.jpg"/>Solar matinee  29.07.2018</li>
+    <li draggable="true"><img src="img/29.07.2018/21.jpg"/>Solar matinee  29.07.2018</li>
+     <li draggable="true"><img src="img/29.07.2018/22.jpg"/>Solar matinee  29.07.2018</li>
+    <li draggable="true"><img src="img/29.07.2018/23.jpg"/>Solar matinee  29.07.2018</li>
+    <li draggable="true"><img src="img/29.07.2018/24.jpg"/>Solar matinee  29.07.2018</li>
+    <li draggable="true"><img src="img/29.07.2018/25.jpg"/>Solar matinee  29.07.2018</li>
+     <li draggable="true"><img src="img/29.07.2018/26.jpg"/>Solar matinee  29.07.2018</li>
+    <li draggable="true"><img src="img/29.07.2018/27.jpg"/>Solar matinee  29.07.2018</li>
+    <li draggable="true"><img src="img/29.07.2018/28.jpg"/>Solar matinee  29.07.2018</li>
+    <li draggable="true"><img src="img/29.07.2018/29.jpg"/>Solar matinee  29.07.2018</li>
+     <li draggable="true"><img src="img/29.07.2018/30.jpg"/>Solar matinee  29.07.2018</li>
+    <li draggable="true"><img src="img/29.07.2018/31.jpg"/>Solar matinee  29.07.2018</li>
+    <li draggable="true"><img src="img/29.07.2018/32.jpg"/>Solar matinee  29.07.2018</li>
+    <li draggable="true"><img src="img/29.07.2018/33.jpg"/>Solar matinee  29.07.2018</li>
+     <li draggable="true"><img src="img/29.07.2018/34.jpg"/>Solar matinee  29.07.2018</li>
+    <li draggable="true"><img src="img/29.07.2018/35.jpg"/>Solar matinee  29.07.2018</li>
+    <li draggable="true"><img src="img/29.07.2018/36.jpg"/>Solar matinee  29.07.2018</li>
+    <li draggable="true"><img src="img/29.07.2018/37.jpg"/>Solar matinee  29.07.2018</li>
+     <li draggable="true"><img src="img/29.07.2018/38.jpg"/>Solar matinee  29.07.2018</li>
+    <li draggable="true"><img src="img/29.07.2018/39.jpg"/>Solar matinee  29.07.2018</li>
+    <li draggable="true"><img src="img/29.07.2018/40.jpg"/>Solar matinee  29.07.2018</li>
+    <li draggable="true"><img src="img/29.07.2018/41.jpg"/>Solar matinee  29.07.2018</li>
+     <li draggable="true"><img src="img/29.07.2018/42.jpg"/>Solar matinee  29.07.2018</li>
+    <li draggable="true"><img src="img/29.07.2018/43.jpg"/>Solar matinee  29.07.2018</li>
+    <li draggable="true"><img src="img/29.07.2018/44.jpg"/>Solar matinee  29.07.2018</li>
+    <li draggable="true"><img src="img/29.07.2018/45.jpg"/>Solar matinee  29.07.2018</li>
+     <li draggable="true"><img src="img/29.07.2018/46.jpg"/>Solar matinee  29.07.2018</li>
+    <li draggable="true"><img src="img/29.07.2018/47.jpg"/>Solar matinee  29.07.2018</li>
+    <li draggable="true"><img src="img/29.07.2018/48.jpg"/>Solar matinee  29.07.2018</li>
+    <li draggable="true"><img src="img/29.07.2018/49.jpg"/>Solar matinee  29.07.2018</li>
+     <li draggable="true"><img src="img/29.07.2018/50.jpg"/>Solar matinee  29.07.2018</li>
+    <li draggable="true"><img src="img/29.07.2018/51.jpg"/>Solar matinee  29.07.2018</li>
+    <li draggable="true"><img src="img/29.07.2018/52.jpg"/>Solar matinee  29.07.2018</li>
+    <li draggable="true"><img src="img/29.07.2018/53.jpg"/>Solar matinee  29.07.2018</li>
+    <li draggable="true"><img src="img/29.07.2018/54.jpg"/>Solar matinee  29.07.2018</li>
+    <li draggable="true"><img src="img/29.07.2018/55.jpg"/>Solar matinee  29.07.2018</li>
+     <li draggable="true"><img src="img/29.07.2018/56.jpg"/>Solar matinee  29.07.2018</li>
+    <li draggable="true"><img src="img/29.07.2018/57.jpg"/>Solar matinee  29.07.2018</li>
+    <li draggable="true"><img src="img/29.07.2018/58.jpg"/>Solar matinee  29.07.2018</li>
+    <li draggable="true"><img src="img/29.07.2018/59.jpg"/>Solar matinee  29.07.2018</li>
+     <li draggable="true"><img src="img/29.07.2018/60.jpg"/>Solar matinee  29.07.2018</li>
+    <li draggable="true"><img src="img/29.07.2018/61.jpg"/>Solar matinee  29.07.2018</li>
+    <li draggable="true"><img src="img/29.07.2018/62.jpg"/>Solar matinee  29.07.2018</li>
+    <li draggable="true"><img src="img/29.07.2018/63.jpg"/>Solar matinee  29.07.2018</li>
+     <li draggable="true"><img src="img/29.07.2018/64.jpg"/>Solar matinee  29.07.2018</li>
+    <li draggable="true"><img src="img/29.07.2018/65.jpg"/>Solar matinee  29.07.2018</li>
+    <li draggable="true"><img src="img/29.07.2018/66.jpg"/>Solar matinee  29.07.2018</li>
+    <li draggable="true"><img src="img/29.07.2018/67.jpg"/>Solar matinee  29.07.2018</li>
+     <li draggable="true"><img src="img/29.07.2018/68.jpg"/>Solar matinee  29.07.2018</li>
+    <li draggable="true"><img src="img/29.07.2018/69.jpg"/>Solar matinee  29.07.2018</li>
+    <li draggable="true"><img src="img/29.07.2018/70.jpg"/>Solar matinee  29.07.2018</li>
+    <li draggable="true"><img src="img/29.07.2018/71.jpg"/>Solar matinee  29.07.2018</li>
+    <li draggable="true"><img src="img/29.07.2018/72.jpg"/>Solar matinee  29.07.2018</li>
+    <li draggable="true"><img src="img/29.07.2018/73.jpg"/>Solar matinee  29.07.2018</li>
+    <li draggable="true"><img src="img/29.07.2018/74.jpg"/>Solar matinee  29.07.2018</li>
+    <li draggable="true"><img src="img/29.07.2018/75.jpg"/>Solar matinee  29.07.2018</li>
+      <li draggable="true"><img src="img/29.07.2018/1.jpg"/>Solar matinee  29.07.2018</li>
+    
+
+  </ul>
+</section>
+
+
+ <section class="section-galerry" id="galler1">
+ <ul class="gallery">
+    <li draggable="true"><img src="img/29.07.2018/1.jpg"/></li>
+    <li draggable="true"><img src="http://placeimg.com/640/480/any/2"/></li>
+    <li draggable="true"><img src="http://placeimg.com/640/480/any/3"/></li>
+    <li draggable="true"><img src="http://placeimg.com/640/480/any/4"/></li>
+    <li draggable="true"><img src="http://placeimg.com/640/480/any/5"/></li>
+  </ul>
+</section>
+
 </div>
 
+
+
+    <!-- start MAP -->
+    <div id="map">
+<iframe      frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=mije%20kovacevica%207a&key=AIzaSyBqtvs6LommR4pMifQZixgZ2fwNd4Roaq0" allowfullscreen></iframe>  </div>
+    <!-- end MAP -->
+    <!-- start footer Area -->
+    <footer class="footer-area section-gap" id='footer'>
+        <div class="container" <div class="col-lg-6  col-md-12">
+            <div class="single-footer-widget newsletter">
+                <address style="font-size:18px">
+                    E -mail: <a href="mailto:solarmatinee@gmail.com">solarmatinee@gmail.com</a>
+                    <br> Address:
+                    <br> Mije Kovacevica 7a
+                    <br> Heritage Rooftop
+                    <br> 066/888-40-28
+                    <br>
+                </address>
+                <br>
+                <h4>Visit us on : </h4>
+            </div>
+            <div class="row footer-bottom d-flex justify-content-between">
+                <div class="col-lg-4 col-sm-12 footer-social">
+                    <a href="https://www.facebook.com/solarmatinee/" target="_blank"><i class="fa fa-facebook"  style="font-size:48px"></i></a>
+                    <a href="https://www.instagram.com/solar_matinee/" target="_blank"><i class="fa fa-instagram"  style="font-size:48px"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- End footer Area -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBqtvs6LommR4pMifQZixgZ2fwNd4Roaq0"></script>
+    <script src="js/vendor/jquery-2.2.4.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="js/vendor/bootstrap.min.js"></script>
+    <script src="js/jquery.ajaxchimp.min.js"></script>
+    <script src="js/availability-calendar.js"></script>
+    <script src="js/jquery.sticky.js"></script>
+    <script src="js/parallax.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="js/countdown.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/gallery.js"></script>
+    <script src="js/map.js"></script>
+    <script src='jquery-1.10.2.min.js'></script>
+    <script type="text/javascript" src="jquery-1.8.3.js"></script>
+    <script type="text/javascript">
+ </script>
+ 
+    
 </body>
+
 </html>

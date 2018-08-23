@@ -1,5 +1,5 @@
 function getTimeRemaining(endtime) {
-  var t = Date.parse('Aug 19 2018 18:00:00') - Date.parse(new Date());
+  var t = Date.parse('Aug 26 2018 18:00:00') - Date.parse(new Date());
   var seconds = Math.floor((t / 1000) % 60);
   var minutes = Math.floor((t / 1000 / 60) % 60);
   var hours = Math.floor((t / (1000 * 60 * 60)) % 24);
