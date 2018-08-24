@@ -261,7 +261,7 @@
     Plugin.prototype.structure = function() {
         var list = '';
         var controls = '';
-        var i = 0;
+        
         var subHtmlCont = '';
         var template;
         var _this = this;
@@ -270,7 +270,7 @@
         $('.lg-backdrop').css('transition-duration', this.s.backdropDuration + 'ms');
 
         // Create gallery items
-        for (i = 0; i < this.$items.length; i++) {
+        for (var i = 1; i < this.$items.length; i++) {
             list += '<div class="lg-item"></div>';
         }
 
