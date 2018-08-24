@@ -1963,7 +1963,7 @@ nav a:hover {
 }
 
 .section-gap {
-    padding: 120px 0
+    /*padding: 120px */0
 }
 
 .section-title {
@@ -2172,9 +2172,6 @@ nav a:hover {
 
 .sticky-wrapper {
     height: 48px !important
-}
-.row .fullscreen{
-    height: 720px;
 }
 
 
@@ -2607,7 +2604,7 @@ nav a:hover {
 }
 
 .footer-area {
-    padding-top: 100px;
+  /*  padding-top: 100px;*/
     background-color: #222222
 }
 
