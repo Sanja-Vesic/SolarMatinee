@@ -45,7 +45,7 @@
          * if preload is 2 then 2nd 3rd 5th 6th slides will be preloaded.. ... ...
          *
          */
-        preload: 1,
+        preload: 0,
         showAfterLoad: true,
         selector: '',
         selectWithin: '',
@@ -270,7 +270,7 @@
         $('.lg-backdrop').css('transition-duration', this.s.backdropDuration + 'ms');
 
         // Create gallery items
-        for (var i = 1; i < this.$items.length; i++) {
+        for (var i = 0; i < this.$items.length; i++) {
             list += '<div class="lg-item"></div>';
         }
 
@@ -634,7 +634,7 @@
 
         }
 
-        //if (_src || _srcset || _sizes || _poster) {
+        if (_src || _srcset || _sizes || _poster) {
 
         var iframe = false;
         if (_this.s.dynamic) {
@@ -728,7 +728,7 @@
             }
         }
 
-        //}
+        }
     };
 
     /**
@@ -1341,10 +1341,8 @@
 
 
 $(document).ready(function() {
-     for(var i=0; i<10 ; i++){
-  $('#lightgallery' + i).lightGallery({
-
-    pager: true
+  $("[id^=lightgallery]").lightGallery({ /* no need to loop, just select elements which starting with "lightgallery" */
+    pager: true,
+    selector: 'li' /* we need to show which elements are our items (to not assume h4 as a slider item) */
   });
-}
 });

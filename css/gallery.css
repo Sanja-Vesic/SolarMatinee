@@ -7,7 +7,10 @@ body {
   font-size:16px;
 }
 
-
+.demo-gallery h4 {
+  width: 163px;
+  text-align: center;
+}
 
 .green{
   background-color:#6fb936;
@@ -70,3 +73,26 @@ nav a {
 }
 
 
+@media screen and(max-width: 400px)
+nav {
+    margin-right: 0;
+    position: absolute;
+    right: 0;
+    top: 47px;
+    text-align: right;
+    padding: 20px 0;
+    z-index: 5;
+    background: #fff;
+}
+
+@media screen and(max-width: 150px)
+nav {
+    margin-right: 0;
+    position: absolute;
+    right: 0;
+    top: 47px;
+    text-align: right;
+    padding: 20px 0;
+    z-index: 5;
+    background: #fff;
+}
